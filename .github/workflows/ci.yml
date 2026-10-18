@@ -1,0 +1,14 @@
+name: run-test-workflow
+on: workflow_dispatch
+
+jobs:
+  build:
+    runs-on : ubuntu-latest
+    steps:
+      - name: starting
+        run: echo "Hi I am there"
+      - name: ending
+        run : echo "Hi I am gone"
+        
+    
+  
